@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="gizasystems">
+
+    <test name="gizasystems-Regression">
+        <classes>
+            <class name="com.gizasystems.TestRunner"/>
+        </classes>
+    </test>
+</suite>
