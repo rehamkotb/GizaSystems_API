@@ -1,9 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="gizasystems">
+<suite name="gizasystems_API">
 
-    <test name="gizasystems-Regression">
+    <test name="API-Regression">
         <classes>
-            <class name="com.gizasystems.TestRunner"/>
+            <class name="com.gizasystems.tests.createNewPet"/>
+            <class name="com.gizasystems.tests.getPet"/>
+            <class name="com.gizasystems.tests.findPetByStatus"/>
+
         </classes>
     </test>
 </suite>

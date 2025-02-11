@@ -1,0 +1,1713 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>API Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">RestAssured Test Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 8, 2025 02:22:25 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Create New Pet</p>
+            <p class="text-sm">
+              <span>2:22:25 AM</span> / <span>00:00:01:453</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Create New Pet</h5>
+<span class='badge badge-success'>02.08.2025 2:22:25 AM</span>
+<span class='badge badge-danger'>02.08.2025 2:22:26 AM</span>
+<span class='badge badge-default'>00:00:01:453</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:22:25 AM</td>
+        <td>
+          Creating a new pet with ID: 9999 and Name: PetTest
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:22:26 AM</td>
+        <td>
+          Received Response: {
+    "id": 9999,
+    "name": "PetTest",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:22:26 AM</td>
+        <td>
+          Response Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22:26 AM</td>
+        <td>
+          Pet is created successfully: PetTest
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Get Pet by ID</p>
+            <p class="text-sm">
+              <span>2:22:26 AM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Get Pet by ID</h5>
+<span class='badge badge-success'>02.08.2025 2:22:26 AM</span>
+<span class='badge badge-danger'>02.08.2025 2:22:26 AM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Find Pets by Status</p>
+            <p class="text-sm">
+              <span>2:22:27 AM</span> / <span>00:00:00:856</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Find Pets by Status</h5>
+<span class='badge badge-success'>02.08.2025 2:22:27 AM</span>
+<span class='badge badge-danger'>02.08.2025 2:22:28 AM</span>
+<span class='badge badge-default'>00:00:00:856</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:22:28 AM</td>
+        <td>
+          Received Response: [
+    {
+        "id": 2,
+        "category": {
+            "id": 2,
+            "name": "Cats"
+        },
+        "name": "Cat 2",
+        "photoUrls": [
+            "url1",
+            "url2"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag2"
+            },
+            {
+                "id": 2,
+                "name": "tag3"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 4,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "Dog 1",
+        "photoUrls": [
+            "url1",
+            "url2"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag1"
+            },
+            {
+                "id": 2,
+                "name": "tag2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7,
+        "category": {
+            "id": 4,
+            "name": "Lions"
+        },
+        "name": "Lion 1",
+        "photoUrls": [
+            "url1",
+            "url2"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag1"
+            },
+            {
+                "id": 2,
+                "name": "tag2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 8,
+        "category": {
+            "id": 4,
+            "name": "Lions"
+        },
+        "name": "Lion 2",
+        "photoUrls": [
+            "url1",
+            "url2"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag2"
+            },
+            {
+                "id": 2,
+                "name": "tag3"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9,
+        "category": {
+            "id": 4,
+            "name": "Lions"
+        },
+        "name": "Lion 3",
+        "photoUrls": [
+            "url1",
+            "url2"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag3"
+            },
+            {
+                "id": 2,
+                "name": "tag4"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 14,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 333344444333333,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "test",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 89,
+        "category": {
+            "id": 0,
+            "name": "karpuz"
+        },
+        "name": "cekirdekli",
+        "photoUrls": [
+            "stringkırmızı",
+            "kırmızıStr"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Adana Karpuzu"
+            },
+            {
+                "id": 1,
+                "name": "Tatlı"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 198,
+        "name": "Cutie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 123,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180179,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "test",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 555111222333,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Dominique.Zboncak",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180180,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "doggie"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180183,
+        "category": {
+            "id": 0,
+            "name": "Pomeranian"
+        },
+        "name": "Yeontn",
+        "photoUrls": [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwikibio.in%2Fyeontan%2F&psig=AOvVaw0UdJeOGlk-jKSOtT-nplW1&ust=1682581409377000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCMCQvJiuyP4CFQAAAAAdAAAAABAI"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Dog"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180184,
+        "category": {
+            "id": 95433809,
+            "name": "enim veniam proident Excepteur"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolor eiusmod cillum adipisicing",
+            "eiusmod ullamco proident in elit"
+        ],
+        "tags": [
+            {
+                "id": -84442208,
+                "name": "incididunt fugiat amet pariatur"
+            },
+            {
+                "id": 64723750,
+                "name": "nisi adipisicing Duis Lorem"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180185,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180199,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180202,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180209,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180210,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Puff",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180211,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 5489,
+        "category": {
+            "id": 1,
+            "name": "Cat"
+        },
+        "name": "Missi",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 35,
+                "name": "British cat"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180218,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180219,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180220,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180221,
+        "category": {
+            "id": 0,
+            "name": "#%status%#"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 112233,
+        "category": {
+            "id": 30,
+            "name": "Eq-dog"
+        },
+        "name": "Postman",
+        "photoUrls": [
+            "URLLink"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "Doberman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180223,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180226,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180229,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180230,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180231,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180243,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180244,
+        "category": {
+            "id": 0,
+            "name": "bebe"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "bulldog"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180251,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180252,
+        "category": {
+            "id": 0,
+            "name": "bebe"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "bulldog"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180259,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180260,
+        "category": {
+            "id": 0,
+            "name": "bebe"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "bulldog"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180275,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140491042131,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180276,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Puff",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180277,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180278,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180281,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180283,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180293,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9999,
+        "name": "PetTest",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180312,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180313,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180319,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180320,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180321,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180324,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180326,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180328,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Puff",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180330,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180333,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180334,
+        "category": {
+            "id": 0,
+            "name": "#%status%#"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180335,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180336,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180338,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180341,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180346,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180347,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180388,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180389,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180390,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Puff",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180391,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180408,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180416,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 575,
+        "category": {
+            "id": 0,
+            "name": "beko"
+        },
+        "name": "bekopetname",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180430,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    }
+]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:22:28 AM</td>
+        <td>
+          Response Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:22:28 AM</td>
+        <td>
+          Pets list retrieved successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 8, 2025 02:22:25 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 8, 2025 02:22:28 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>3</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='28%'><b>2</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>5</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test Create New Pet":1.453,"Test Get Pet by ID":0,"Test Find Pets by Status":0.856
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 2,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 5
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

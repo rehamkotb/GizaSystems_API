@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc4caba-092d-4bca-9d22-867260d5ae76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gizasystems/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gizasystems/testNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gizasystems/utilities/ExtentReportManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,11 +40,100 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.API_GizaSystems [clean].executor": "Run",
+    "Maven.API_GizaSystems [install].executor": "Run",
+    "Maven.API_GizaSystems [test].executor": "Run",
+    "Maven.API_GizaSystems [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/rehamkotb/Desktop/gizasystemstask/API_GizaSystems/src/test/java/com/gizasystems/testNG.xml.executor": "Run",
+    "TestNG.createNewPet.executor": "Run",
+    "TestNG.findPetByStatus.executor": "Run",
+    "TestNG.getPet.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rehamkotb/Desktop/gizasystemstask/API_GizaSystems/src/test/java/com/gizasystems",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/gizasystems" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/rehamkotb/Desktop/gizasystemstask/API_GizaSystems/src/test/java/com/gizasystems/testNG.xml">
+    <configuration name="/Users/rehamkotb/Desktop/gizasystemstask/API_GizaSystems/src/test/java/com/gizasystems/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_GizaSystems" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/gizasystems/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createNewPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_GizaSystems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gizasystems.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gizasystems.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gizasystems.tests.createNewPet" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findPetByStatus" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_GizaSystems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gizasystems.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gizasystems.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gizasystems.tests.findPetByStatus" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_GizaSystems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gizasystems.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gizasystems.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.gizasystems.tests.getPet" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/rehamkotb/Desktop/gizasystemstask/API_GizaSystems/src/test/java/com/gizasystems/testNG.xml" />
+        <item itemvalue="TestNG.findPetByStatus" />
+        <item itemvalue="TestNG.createNewPet" />
+        <item itemvalue="TestNG.getPet" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
